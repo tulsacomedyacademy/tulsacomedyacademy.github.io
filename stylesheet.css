@@ -67,13 +67,17 @@ nav {
 .content-container {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-start;}
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;}
 .content-container-alt {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
   background-color: #222;
-  color:#fff;}
+  color:#fff;
+  max-width: 600px;
+  margin: 0 auto;}
 .content-container-alt h1{
   color: #fff;}
 .content {
